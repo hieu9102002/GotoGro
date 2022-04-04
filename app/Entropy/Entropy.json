@@ -1,0 +1,38 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Form1": 4,
+    "Screen1": 3
+  },
+  "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "04/04/2022 08:21:26",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {},
+  "OrderGroupControls": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "form": 0
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Form1": 0,
+    "Screen1": 0
+  },
+  "ResourcesJsonIndices": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0674972,
+    "ControlCount": {
+      "form": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.4813733,
+    "ErrorCount": 0
+  }
+}
