@@ -1,3 +1,0 @@
-{
-  "AppFromDataMetaDataIdsToEntityNameMappings": "{\"%DataSourceName.AFD%\":\"Table1\",\"%DataSourceValue.AFD%\":\"[@Table1]\",\"%SortFieldName.AFD%\":\"\\\"City\\\"\",\"%SearchFieldName.AFD%\":\"\\\"City\\\",\\\"Country\\\",\\\"Customer_x0020_ID\\\"\",\"%StartsWithFieldName.AFD%\":\"City\",\"%DeleteConfirmFieldName.AFD%\":\"City\",\"%SortDescending.AFD%\":\"SortDescending1\",\"%BrowseScreen.AFD%\":\"BrowseScreen1\",\"%DetailScreen.AFD%\":\"DetailScreen1\",\"%EditScreen.AFD%\":\"EditScreen1\",\"%BrowseContainer.ID%\":\"BrowseGallery1\",\"%DetailEditContainer.ID%\":\"EditForm1\"}"
-}
