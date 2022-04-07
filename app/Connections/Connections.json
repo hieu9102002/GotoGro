@@ -42,6 +42,13 @@
       }
     },
     "datasets": {
+      "b!ZnKQ81GrKkC-fYZjvBxVdWw0nh7pVGBAte35IXUUIKK0kO4Ypan9SZJgTsbReDFz.01HPFOFQVGZFIVAGACNRHLO5NNXGJ6FWCI": {
+        "dataSources": {
+          "Table1_1": {
+            "tableName": "Table1"
+          }
+        }
+      },
       "b!ZnKQ81GrKkC-fYZjvBxVdWw0nh7pVGBAte35IXUUIKK0kO4Ypan9SZJgTsbReDFz.01HPFOFQX2TCFFHIGFNBBLTHO6T2U3JN76": {
         "dataSources": {
           "Table1": {
@@ -51,7 +58,8 @@
       }
     },
     "dataSources": [
-      "Table1"
+      "Table1",
+      "Table1_1"
     ],
     "dependencies": {
       "fileSource": "827f3208-6134-4ef2-9084-f8efb4b0f608"

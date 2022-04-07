@@ -1,0 +1,27 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2022-03-21T16:35:51.5470000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "Row id",
+      "Category": "Category",
+      "Customer_x0020_ID": "Customer ID",
+      "Order_x0020_Date": "Order Date",
+      "Product_x0020_ID": "Product ID",
+      "Product_x0020_Name": "Product Name",
+      "Row_x0020_ID": "Row ID",
+      "Sales": "Sales",
+      "Sub-Category": "Sub-Category"
+    },
+    "DatasetName": "b!ZnKQ81GrKkC-fYZjvBxVdWw0nh7pVGBAte35IXUUIKK0kO4Ypan9SZJgTsbReDFz.01HPFOFQVGZFIVAGACNRHLO5NNXGJ6FWCI",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Table1_1",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
