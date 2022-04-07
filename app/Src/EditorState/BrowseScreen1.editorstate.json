@@ -228,7 +228,7 @@
     "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
-        "AFDDataSourceName": "Table1",
+        "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
         "AutoRuleBindingString": "",
         "InvariantPropertyName": "Items",

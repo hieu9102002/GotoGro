@@ -23,10 +23,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 12,
-                  "charOffset": 76,
+                  "charLength": 11,
+                  "charOffset": 68,
                   "snippet": {
-                    "text": "\"Order_Date\""
+                    "text": "\"OrderDate\""
                   }
                 }
               },
@@ -39,7 +39,7 @@
           ],
           "message": {
             "arguments": [
-              "Order_Date"
+              "OrderDate"
             ],
             "id": "issue"
           },
@@ -63,10 +63,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 75,
+                  "charLength": 74,
                   "charOffset": 14,
                   "snippet": {
-                    "text": "Search([@Table1_1], TextSearchBox1_1.Text, \"Category\",\"Sales\",\"Order_Date\")"
+                    "text": "Search([@Table1_1], TextSearchBox1_1.Text, \"Category\",\"OrderDate\",\"Sales\")"
                   }
                 }
               },
@@ -103,10 +103,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 148,
+                  "charLength": 146,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "SortByColumns(Search([@Table1_1], TextSearchBox1_1.Text, \"Category\",\"Sales\",\"Order_Date\"), \"Order_Date\", If(SortDescending1, Descending, Ascending))"
+                    "text": "SortByColumns(Search([@Table1_1], TextSearchBox1_1.Text, \"Category\",\"OrderDate\",\"Sales\"), \"OrderDate\", If(SortDescending1, Descending, Ascending))"
                   }
                 }
               },
@@ -143,10 +143,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 12,
-                  "charOffset": 91,
+                  "charLength": 11,
+                  "charOffset": 90,
                   "snippet": {
-                    "text": "\"Order_Date\""
+                    "text": "\"OrderDate\""
                   }
                 }
               },
@@ -159,7 +159,7 @@
           ],
           "message": {
             "arguments": [
-              "Order_Date"
+              "OrderDate"
             ],
             "id": "issue"
           },
@@ -183,10 +183,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 8,
+                  "charLength": 5,
                   "charOffset": 8,
                   "snippet": {
-                    "text": ".Country"
+                    "text": ".City"
                   }
                 }
               },
