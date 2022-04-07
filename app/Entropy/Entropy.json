@@ -190,7 +190,7 @@
     "Title1_1": 107
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "04/07/2022 11:52:11",
+  "HeaderLastSavedDateTimeUTC": "04/07/2022 11:57:42",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -419,6 +419,6 @@
       "typedDataCard": 32
     },
     "DeserializationLoadTime": 1.227494,
-    "ErrorCount": 6
+    "ErrorCount": 0
   }
 }

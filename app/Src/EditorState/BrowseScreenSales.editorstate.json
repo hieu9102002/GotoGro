@@ -4,7 +4,14 @@
     "ControlPropertyState": [
       "Live",
       "Overflow",
-      "Text",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ThisItem.'Customer ID'",
+        "InvariantPropertyName": "Text",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Role",
       "Color",
       "DisabledColor",
@@ -2091,7 +2098,14 @@
     "ControlPropertyState": [
       "Live",
       "Overflow",
-      "Text",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ThisItem.Category",
+        "InvariantPropertyName": "Text",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Role",
       "Color",
       "DisabledColor",
