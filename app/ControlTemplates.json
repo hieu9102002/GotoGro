@@ -25,7 +25,7 @@
     "LastModifiedTimestamp": "0",
     "Name": "form",
     "OverridableProperties": {},
-    "Version": "2.1.0"
+    "Version": "2.2.0"
   },
   "formViewer": {
     "CustomGroupControlTemplateName": "",
@@ -39,7 +39,7 @@
     "LastModifiedTimestamp": "0",
     "Name": "formViewer",
     "OverridableProperties": {},
-    "Version": "2.1.0"
+    "Version": "2.2.0"
   },
   "gallery": {
     "CustomGroupControlTemplateName": "",

@@ -10,7 +10,7 @@
       "__PowerAppsId__": "Row id",
       "Category": "Category",
       "Customer_x0020_ID": "Customer ID",
-      "Order_x0020_Date": "Order Date",
+      "OrderDate": "OrderDate",
       "Product_x0020_ID": "Product ID",
       "Product_x0020_Name": "Product Name",
       "Row_x0020_ID": "Row ID",

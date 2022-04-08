@@ -61,6 +61,7 @@
         ZIndex: =5
 
     DetailForm1_1 As formViewer:
+        AcceptsFocus: =false
         DataSource: =[@Table1]
         Height: =Parent.Height - DetailForm1_1.Y
         Item: =BrowseGallery1.Selected

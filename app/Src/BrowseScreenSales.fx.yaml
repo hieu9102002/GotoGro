@@ -100,7 +100,7 @@
 
     "BrowseGallery1_1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =Parent.Height - Self.Y
-        Items: =SortByColumns(Search([@Table1_1], TextSearchBox1_1.Text, "Category"), "Order_x0020_Date", If(SortDescending1, Descending, Ascending))
+        Items: =SortByColumns(Search([@Table1_1], TextSearchBox1_1.Text, "Category"), "OrderDate", If(SortDescending1, Descending, Ascending))
         Layout: =Layout.Vertical
         OnSelect: =Navigate(DetailScreen1, ScreenTransition.None)
         ShowScrollbar: =false
@@ -131,7 +131,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Order Date'
+            Text: =ThisItem.OrderDate
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
