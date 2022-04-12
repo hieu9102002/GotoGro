@@ -108,84 +108,6 @@
                 Y: =DataCardKey4.Y + DataCardKey4.Height + 5
                 ZIndex: =2
 
-        "'Customer ID_DataCard1' As typedDataCard.textualViewCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Customer_x0020_ID"
-            Default: =ThisItem.'Customer ID'
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"Customer_x0020_ID")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =640
-            X: =0
-            Y: =103
-            ZIndex: =1
-
-            DataCardKey3 As label:
-                AutoHeight: =true
-                Height: =48
-                PaddingBottom: =0
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue3 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey3.Y + DataCardKey3.Height + 5
-                ZIndex: =2
-
-        City_DataCard1 As typedDataCard.textualViewCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="City"
-            Default: =ThisItem.City
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"City")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =640
-            X: =0
-            Y: =989
-            ZIndex: =1
-
-            DataCardKey1 As label:
-                AutoHeight: =true
-                Height: =48
-                PaddingBottom: =0
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue1 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
-                ZIndex: =2
-
         Country_DataCard1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Country"
@@ -197,7 +119,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =800
+            Y: =1
             ZIndex: =1
 
             DataCardKey2 As label:
@@ -225,24 +147,23 @@
                 Y: =DataCardKey2.Y + DataCardKey2.Height + 5
                 ZIndex: =2
 
-        "'Postal Code_DataCard1' As typedDataCard.textualViewCard":
+        City_DataCard1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Postal_x0020_Code"
-            Default: =ThisItem.'Postal Code'
+            DataField: ="City"
+            Default: =ThisItem.City
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"Postal_x0020_Code")
+            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"City")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
             Width: =640
             X: =0
-            Y: =9000
+            Y: =2
             ZIndex: =1
 
-            DataCardKey5 As label:
+            DataCardKey1 As label:
                 AutoHeight: =true
                 Height: =48
-                PaddingBottom: =0
                 Size: =21
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -251,7 +172,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue5 As label:
+            DataCardValue1 As label:
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
@@ -261,46 +182,7 @@
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey5.Y + DataCardKey5.Height + 5
-                ZIndex: =2
-
-        Region_DataCard1 As typedDataCard.textualViewCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Region"
-            Default: =ThisItem.Region
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"Region")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =640
-            X: =0
-            Y: =800
-            ZIndex: =1
-
-            DataCardKey6 As label:
-                AutoHeight: =true
-                Height: =48
-                PaddingBottom: =0
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue6 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
                 ZIndex: =2
 
         Segment_DataCard1 As typedDataCard.textualViewCard:
@@ -314,7 +196,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =800
+            Y: =5
             ZIndex: =1
 
             DataCardKey7 As label:
@@ -353,7 +235,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =800
+            Y: =6
             ZIndex: =1
 
             DataCardKey8 As label:
@@ -379,5 +261,83 @@
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey8.Y + DataCardKey8.Height + 5
+                ZIndex: =2
+
+        Region_DataCard1 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Region"
+            Default: =ThisItem.Region
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"Region")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =3
+            ZIndex: =1
+
+            DataCardKey6 As label:
+                AutoHeight: =true
+                Height: =48
+                PaddingBottom: =0
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue6 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                ZIndex: =2
+
+        "'Postal Code_DataCard1' As typedDataCard.textualViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Postal_x0020_Code"
+            Default: =ThisItem.'Postal Code'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"Postal_x0020_Code")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =4
+            ZIndex: =1
+
+            DataCardKey5 As label:
+                AutoHeight: =true
+                Height: =48
+                PaddingBottom: =0
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue5 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey5.Y + DataCardKey5.Height + 5
                 ZIndex: =2
 
