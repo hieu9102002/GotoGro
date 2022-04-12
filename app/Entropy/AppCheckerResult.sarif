@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.City_DataCard2_1.DataCardValue9_1.AccessibleLabel"
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Sub-Category_DataCard2.DataCardValue24.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.City_DataCard2_1.DataCardValue9_1.AccessibleLabel",
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Sub-Category_DataCard2.DataCardValue24.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EditScreenSales",
-                "type": "EditScreenSales.EditForm1_1.City_DataCard2_1.DataCardValue9_1"
+                "type": "EditScreenSales.EditForm1_1.Sub-Category_DataCard2.DataCardValue24"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Country_DataCard2_1.DataCardValue10_1.AccessibleLabel"
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Sales_DataCard2.DataCardValue23.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Country_DataCard2_1.DataCardValue10_1.AccessibleLabel",
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Sales_DataCard2.DataCardValue23.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EditScreenSales",
-                "type": "EditScreenSales.EditForm1_1.Country_DataCard2_1.DataCardValue10_1"
+                "type": "EditScreenSales.EditForm1_1.Sales_DataCard2.DataCardValue23"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Customer ID_DataCard2_1.DataCardValue11_1.AccessibleLabel"
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Product Name_DataCard2.DataCardValue22.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Customer ID_DataCard2_1.DataCardValue11_1.AccessibleLabel",
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Product Name_DataCard2.DataCardValue22.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EditScreenSales",
-                "type": "EditScreenSales.EditForm1_1.Customer ID_DataCard2_1.DataCardValue11_1"
+                "type": "EditScreenSales.EditForm1_1.Product Name_DataCard2.DataCardValue22"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Customer Name_DataCard2_1.DataCardValue12_1.AccessibleLabel"
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.OrderDate_DataCard2.MinuteValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Customer Name_DataCard2_1.DataCardValue12_1.AccessibleLabel",
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.OrderDate_DataCard2.MinuteValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EditScreenSales",
-                "type": "EditScreenSales.EditForm1_1.Customer Name_DataCard2_1.DataCardValue12_1"
+                "type": "EditScreenSales.EditForm1_1.OrderDate_DataCard2.MinuteValue1"
               }
             }
           ],
@@ -134,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Postal Code_DataCard2_1.DataCardValue13_1.AccessibleLabel"
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.OrderDate_DataCard2.HourValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Postal Code_DataCard2_1.DataCardValue13_1.AccessibleLabel",
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.OrderDate_DataCard2.HourValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EditScreenSales",
-                "type": "EditScreenSales.EditForm1_1.Postal Code_DataCard2_1.DataCardValue13_1"
+                "type": "EditScreenSales.EditForm1_1.OrderDate_DataCard2.HourValue1"
               }
             }
           ],
@@ -164,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Region_DataCard2_1.DataCardValue14_1.AccessibleLabel"
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.OrderDate_DataCard2.DateValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Region_DataCard2_1.DataCardValue14_1.AccessibleLabel",
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.OrderDate_DataCard2.DateValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EditScreenSales",
-                "type": "EditScreenSales.EditForm1_1.Region_DataCard2_1.DataCardValue14_1"
+                "type": "EditScreenSales.EditForm1_1.OrderDate_DataCard2.DateValue1"
               }
             }
           ],
@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Segment_DataCard2_1.DataCardValue15_1.AccessibleLabel"
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Customer_DataCard2.DataCardValue21.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Segment_DataCard2_1.DataCardValue15_1.AccessibleLabel",
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Customer_DataCard2.DataCardValue21.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EditScreenSales",
-                "type": "EditScreenSales.EditForm1_1.Segment_DataCard2_1.DataCardValue15_1"
+                "type": "EditScreenSales.EditForm1_1.Customer_DataCard2.DataCardValue21"
               }
             }
           ],
@@ -224,19 +224,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.State_DataCard2_1.DataCardValue16_1.AccessibleLabel"
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Category_DataCard2.DataCardValue20.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.State_DataCard2_1.DataCardValue16_1.AccessibleLabel",
+                  "fullyQualifiedName": "EditScreenSales.EditForm1_1.Category_DataCard2.DataCardValue20.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EditScreenSales",
-                "type": "EditScreenSales.EditForm1_1.State_DataCard2_1.DataCardValue16_1"
+                "type": "EditScreenSales.EditForm1_1.Category_DataCard2.DataCardValue20"
               }
             }
           ],
