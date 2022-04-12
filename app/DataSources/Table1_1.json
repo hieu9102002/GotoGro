@@ -9,7 +9,7 @@
     "ConnectedDataSourceInfoNameMapping": {
       "__PowerAppsId__": "Row id",
       "Category": "Category",
-      "Customer_x0020_ID": "Customer ID",
+      "Customer": "Customer",
       "OrderDate": "OrderDate",
       "Product_x0020_ID": "Product ID",
       "Product_x0020_Name": "Product Name",
