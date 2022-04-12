@@ -67,7 +67,7 @@
             Update: =Dropdown1.SelectedText.Value
             Width: =640
             X: =0
-            Y: =5
+            Y: =6
             ZIndex: =1
 
             DataCardKey15 As label:
@@ -130,7 +130,7 @@
             Update: =DataCardValue9.Text
             Width: =640
             X: =0
-            Y: =0
+            Y: =3
             ZIndex: =1
 
             DataCardKey9 As label:
@@ -276,7 +276,7 @@
             Update: =DataCardValue12.Text
             Width: =640
             X: =0
-            Y: =2
+            Y: =0
             ZIndex: =1
 
             DataCardKey12 As label:
@@ -349,7 +349,7 @@
             Update: =DataCardValue13.Text
             Width: =640
             X: =0
-            Y: =3
+            Y: =5
             ZIndex: =1
 
             DataCardKey13 As label:
@@ -495,7 +495,7 @@
             Update: =DataCardValue16.Text
             Width: =640
             X: =0
-            Y: =6
+            Y: =2
             ZIndex: =1
 
             DataCardKey16 As label:
