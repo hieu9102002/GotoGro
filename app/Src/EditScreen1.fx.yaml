@@ -38,7 +38,7 @@
         Fill: =RGBA(58, 58, 58, 0)
         Height: =88
         Size: =27
-        Text: ="Table1"
+        Text: ="Customer"
         Width: =Parent.Width - IconCancel1.Width - IconAccept1.Width
         Wrap: =false
         X: =80
