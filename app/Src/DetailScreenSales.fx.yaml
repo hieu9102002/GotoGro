@@ -9,7 +9,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.ChevronLeft
-        OnSelect: =Navigate(BrowseScreen1, ScreenTransition.None)
+        OnSelect: =Navigate(BrowseScreenSales, ScreenTransition.None)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
