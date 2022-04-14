@@ -67,7 +67,7 @@
         Default: =""
         DelayOutput: =true
         Height: =68
-        HintText: ="Search items"
+        HintText: ="Search customer"
         PaddingLeft: =70
         RadiusBottomLeft: =0
         RadiusBottomRight: =7
