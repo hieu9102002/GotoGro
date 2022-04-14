@@ -102,7 +102,7 @@
         Height: =Parent.Height - Self.Y
         Items: =SortByColumns(Search([@Table1_1], TextSearchBox1_1.Text, "Category"), "OrderDate", If(SortDescending1, Descending, Ascending))
         Layout: =Layout.Vertical
-        OnSelect: =Navigate(DetailScreen1, ScreenTransition.None)
+        OnSelect: =Navigate(DetailScreenSales, ScreenTransition.None)
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
