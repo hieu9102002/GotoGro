@@ -24,7 +24,7 @@
         DisplayMode: =If(DataSourceInfo([@Table1], DataSourceInfo.EditPermission), DisplayMode.Edit, DisplayMode.Disabled)
         Height: =88
         Icon: =Icon.Edit
-        OnSelect: =EditForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
+        OnSelect: =EditForm(EditForm1_1);Navigate(EditScreenSales, ScreenTransition.None)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
@@ -40,7 +40,7 @@
         DisplayMode: =If(!IsBlank(BrowseGallery1.Selected) && DataSourceInfo([@Table1], DataSourceInfo.DeletePermission), DisplayMode.Edit, DisplayMode.Disabled)
         Height: =88
         Icon: =Icon.Trash
-        OnSelect: =Remove([@Table1], BrowseGallery1.Selected); If (IsEmpty(Errors([@Table1], BrowseGallery1.Selected)), Back())
+        OnSelect: =Remove([@Table1_1], BrowseGallery1_1.Selected); If (IsEmpty(Errors([@Table1_1], BrowseGallery1_1.Selected)), Back())
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
