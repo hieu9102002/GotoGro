@@ -99,6 +99,9 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
+    "Login screen",
+    "Forgot Password Screen",
+    "Navigation screen",
     "BrowseScreen1",
     "DetailScreen1",
     "EditScreen1",

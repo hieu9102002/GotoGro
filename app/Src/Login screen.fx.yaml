@@ -1,0 +1,79 @@
+"'Login screen' As screen.'phoneLayout_HeaderAndForm_ver3.0'":
+
+    Button4 As button:
+        Height: =70
+        OnSelect: |-
+            =If(
+                Or(
+                    CountRows(
+                        Filter(
+                            Table1_2,
+                            And(
+                                UsernameInput.Text = username,
+                                PasswordInput.Text = password
+                            )
+                        )
+                    ) = 1,
+                    And(
+                        CountRows(
+                            Filter(
+                                Table1_2,
+                                UsernameInput.Text = username
+                            )
+                        ) = 1,
+                        PasswordInput.Text = "ResettedPassword"
+                    )
+                ),
+                Navigate('Navigation screen');
+                Set(user, UsernameInput.Text),
+                Notify("Invalid Login Details", NotificationType.Error)
+            );
+            Reset(UsernameInput);
+            Reset(PasswordInput);
+        Size: =24
+        Text: ="Login"
+        Width: =280
+        X: =28
+        Y: =316
+        ZIndex: =6
+
+    Button5 As button:
+        Height: =70
+        Size: =24
+        Text: ="Forgot password"
+        Width: =280
+        X: =328
+        Y: =316
+        ZIndex: =7
+
+    UsernameInput As text:
+        Default: =""
+        Height: =70
+        HintText: ="Enter username"
+        Size: =21
+        Width: =560
+        X: =28
+        Y: =100
+        ZIndex: =8
+
+    PasswordInput As text:
+        Default: =""
+        Height: =70
+        HintText: ="Enter password"
+        Mode: =TextMode.Password
+        Size: =21
+        Width: =560
+        X: =28
+        Y: =195
+        ZIndex: =9
+
+    Label2 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =25
+        Text: ="Login"
+        Width: =560
+        X: =28
+        Y: =15
+        ZIndex: =10
+

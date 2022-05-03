@@ -47,6 +47,13 @@
           }
         }
       },
+      "b!ZnKQ81GrKkC-fYZjvBxVdWw0nh7pVGBAte35IXUUIKK0kO4Ypan9SZJgTsbReDFz.01HPFOFQVYKPITMNINSFDL22IMVRHXBPYT": {
+        "dataSources": {
+          "Table1_2": {
+            "tableName": "Table1"
+          }
+        }
+      },
       "b!ZnKQ81GrKkC-fYZjvBxVdWw0nh7pVGBAte35IXUUIKK0kO4Ypan9SZJgTsbReDFz.01HPFOFQX2TCFFHIGFNBBLTHO6T2U3JN76": {
         "dataSources": {
           "Table1": {
@@ -57,12 +64,30 @@
     },
     "dataSources": [
       "Table1",
-      "Table1_1"
+      "Table1_1",
+      "Table1_2"
     ],
     "dependencies": {
       "fileSource": "827f3208-6134-4ef2-9084-f8efb4b0f608"
     },
     "dependents": [],
     "id": "9e833a84-5845-437a-a438-7d3449a249f8"
+  },
+  "fb22925d-effd-4c61-bb0a-46af1fff2c19": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1573/1.0.1573.2770/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "fb22925d-effd-4c61-bb0a-46af1fff2c19"
   }
 }

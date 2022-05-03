@@ -1,0 +1,41 @@
+"'Navigation screen' As screen":
+    OnVisible: =
+
+    Label1 As label:
+        Height: =70
+        Size: =21
+        Text: =Concatenate("Welcome ", user)
+        Width: =560
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    Button1 As button:
+        Height: =70
+        OnSelect: =Navigate(BrowseScreen1)
+        Size: =24
+        Text: ="Show members"
+        Width: =280
+        X: =180
+        Y: =375
+        ZIndex: =2
+
+    Button2 As button:
+        Height: =70
+        OnSelect: =Navigate(BrowseScreenSales)
+        Size: =24
+        Text: ="Show sales"
+        Width: =280
+        X: =180
+        Y: =488
+        ZIndex: =3
+
+    Button3 As button:
+        Height: =70
+        Size: =24
+        Text: ="Button"
+        Width: =280
+        X: =180
+        Y: =599
+        ZIndex: =4
+
