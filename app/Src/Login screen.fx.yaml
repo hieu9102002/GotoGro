@@ -39,6 +39,7 @@
 
     Button5 As button:
         Height: =70
+        OnSelect: =Navigate('Forgot Password Screen')
         Size: =24
         Text: ="Forgot password"
         Width: =280
