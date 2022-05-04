@@ -177,7 +177,7 @@
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
-    IconRefresh1_2 As icon.Reload:
+    IconDownload As icon.Reload:
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Download
