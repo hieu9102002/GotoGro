@@ -14,7 +14,7 @@
         Text: ="Sales"
         Width: =Parent.Width - Self.X - IconSortUpDown1_1.Width - IconNewItem1_1.Width - IconRefresh1_1.Width
         Wrap: =false
-        X: =20
+        X: =88
         ZIndex: =2
 
     IconRefresh1_1 As icon.Reload:
@@ -191,4 +191,18 @@
         Width: =88
         X: =288
         ZIndex: =10
+
+    IconBackarrow1_3 As icon.ChevronLeft:
+        AccessibleLabel: =Self.Tooltip
+        Height: =88
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Navigation screen', ScreenTransition.None)
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Back to list"
+        Width: =88
+        ZIndex: =11
 
