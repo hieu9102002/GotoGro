@@ -187,7 +187,7 @@
     "UsernameInput": 134
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "05/04/2022 03:46:49",
+  "HeaderLastSavedDateTimeUTC": "05/04/2022 03:48:02",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "827f3208-6134-4ef2-9084-f8efb4b0f608": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/7a7f2941eb1d4eb58cf586d7a12b895e\"",
@@ -430,7 +430,7 @@
       "typedDataCard": 26
     },
     "DeserializationLoadTime": 2.4478632,
-    "ErrorCount": 4
+    "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

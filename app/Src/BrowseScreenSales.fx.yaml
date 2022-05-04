@@ -181,7 +181,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Download
-        OnSelect: =Set(varFileLink,ExportToCSV_GotoGro.Run(JSON(Search([@Sales], BrowseGallery1.Selected.Member_x0020_Name, "Member_x0020_Name"),JSONFormat.IncludeBinaryData)).filelink);Download(varFileLink)
+        OnSelect: =Set(varFileLink,ExportToCSV_GotoGro.Run(JSON(Table1_1),JSONFormat.IncludeBinaryData).filelink);Download(varFileLink)
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22
