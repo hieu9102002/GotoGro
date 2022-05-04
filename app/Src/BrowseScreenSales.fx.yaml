@@ -1,4 +1,5 @@
 "BrowseScreenSales As screen.'phoneBrowseLayout_ver3.0'":
+    OnVisible: =
 
     RectQuickActionBar1_1 As rectangle:
         Height: =88
@@ -174,4 +175,19 @@
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
+
+    IconRefresh1_2 As icon.Reload:
+        AccessibleLabel: =Self.Tooltip
+        Height: =88
+        Icon: =Icon.Download
+        OnSelect: =Set(varFileLink,ExportToExcel.Run(JSON(Search(Table1_1, BrowseGallery1_1.Selected.Member_x0020_Name, "Member_x0020_Name"),JSONFormat.IncludeBinaryData)).filelink);Download(varFileLink)
+        PaddingBottom: =22
+        PaddingLeft: =22
+        PaddingRight: =22
+        PaddingTop: =22
+        TabIndex: =0
+        Tooltip: ="Refresh list"
+        Width: =88
+        X: =288
+        ZIndex: =10
 

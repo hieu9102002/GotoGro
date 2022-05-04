@@ -1,4 +1,39 @@
 {
+  "7e29b5f6-3c76-45b8-96fd-0d6a774578a9": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-18.australiasoutheast.logic.azure.com:443/workflows/19b4bc25c0e84463821c100e978cab4c/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=GrfpUduQ2MI8MYNwnzcfWdUmgqy6RmRbyiPn9qkody8",
+      "workflowEndpoint": "/subscriptions/427976e2-4271-4308-afb8-d28d53a6ad06/resourceGroups/df7f75793e9c4a7eb844420280f53859-d8351c3c4b7149b2af02b2bee4afbeb1/providers/Microsoft.Logic/workflows/b8ad54f7-6042-421a-a0a8-0669f4be5073",
+      "workflowName": "b8ad54f7-6042-421a-a0a8-0669f4be5073",
+      "workflowPath": "/subscriptions/427976e2-4271-4308-afb8-d28d53a6ad06/resourceGroups/df7f75793e9c4a7eb844420280f53859-d8351c3c4b7149b2af02b2bee4afbeb1/providers/Microsoft.Logic/workflows/b8ad54f7-6042-421a-a0a8-0669f4be5073"
+    },
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "b8ad54f7-6042-421a-a0a8-0669f4be5073"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "b8ad54f7-6042-421a-a0a8-0669f4be5073"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ExportToExcel",
+      "ExportToExcel_1"
+    ],
+    "dependencies": {
+      "shared_onedriveforbusiness": "827f3208-6134-4ef2-9084-f8efb4b0f608"
+    },
+    "dependents": [],
+    "id": "7e29b5f6-3c76-45b8-96fd-0d6a774578a9"
+  },
   "827f3208-6134-4ef2-9084-f8efb4b0f608": {
     "connectionParameters": {
       "sku": "Enterprise"
@@ -15,7 +50,8 @@
     "dataSources": [],
     "dependencies": {},
     "dependents": [
-      "9e833a84-5845-437a-a438-7d3449a249f8"
+      "9e833a84-5845-437a-a438-7d3449a249f8",
+      "7e29b5f6-3c76-45b8-96fd-0d6a774578a9"
     ],
     "id": "827f3208-6134-4ef2-9084-f8efb4b0f608"
   },

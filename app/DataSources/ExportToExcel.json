@@ -1,0 +1,9 @@
+[
+  {
+    "AddinConnectorId": "b8ad54f7-6042-421a-a0a8-0669f4be5073",
+    "AddinId": "6d1f157d-95bf-406d-b65d-cfd3240f724e",
+    "Name": "ExportToExcel",
+    "ServiceKind": "AddinWadl",
+    "Type": "ServiceInfo"
+  }
+]
