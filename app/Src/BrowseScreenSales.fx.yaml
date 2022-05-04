@@ -9,6 +9,7 @@
     LblAppName1_1 As label:
         Fill: =RGBA(58, 58, 58, 0)
         Height: =88
+        OnSelect: =
         Size: =27
         Text: ="Sales"
         Width: =Parent.Width - Self.X - IconSortUpDown1_1.Width - IconNewItem1_1.Width - IconRefresh1_1.Width
@@ -180,7 +181,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Download
-        OnSelect: =Set(varFileLink,ExportToExcel.Run(JSON(Search(Table1_1, BrowseGallery1_1.Selected.Member_x0020_Name, "Member_x0020_Name"),JSONFormat.IncludeBinaryData)).filelink);Download(varFileLink)
+        OnSelect: =Set(varFileLink,ExportToCSV_GotoGro.Run(JSON(Search([@Sales], BrowseGallery1.Selected.Member_x0020_Name, "Member_x0020_Name"),JSONFormat.IncludeBinaryData)).filelink);Download(varFileLink)
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22

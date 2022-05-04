@@ -1,8 +1,8 @@
 [
   {
-    "AddinConnectorId": "b8ad54f7-6042-421a-a0a8-0669f4be5073",
+    "AddinConnectorId": "f2891dc7-09b1-4b9f-ae2c-eaf81979162b",
     "AddinId": "6d1f157d-95bf-406d-b65d-cfd3240f724e",
-    "Name": "ExportToExcel",
+    "Name": "ExportToCSV_GotoGro",
     "ServiceKind": "AddinWadl",
     "Type": "ServiceInfo"
   }

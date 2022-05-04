@@ -187,12 +187,12 @@
     "UsernameInput": 134
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "05/04/2022 03:34:31",
+  "HeaderLastSavedDateTimeUTC": "05/04/2022 03:46:49",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "7e29b5f6-3c76-45b8-96fd-0d6a774578a9": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/b8ad54f76042421aa0a80669f4be5073-c3ec687d4252ca51\"",
     "827f3208-6134-4ef2-9084-f8efb4b0f608": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/7a7f2941eb1d4eb58cf586d7a12b895e\"",
     "9e833a84-5845-437a-a438-7d3449a249f8": "\"/providers/microsoft.powerapps/apis/shared_excel/connections/76949074f97e4c7090481318a45b20cd\"",
+    "b60aefb7-ae52-46d4-bfcf-c0c8086a26e7": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/f2891dc709b14b9fae2ceaf81979162b-c3ec687d4252ca51\"",
     "fb22925d-effd-4c61-bb0a-46af1fff2c19": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/7f20d45a7596447a9c39b172ea939d7e\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
@@ -203,7 +203,7 @@
   "OrderDataSource": {
     "CustomGallerySample": 2,
     "DropDownSample": 3,
-    "ExportToExcel": 1,
+    "ExportToCSV_GotoGro": 1,
     "Office365Outlook": 0,
     "Table1": 4,
     "Table1_1": 5,
@@ -430,7 +430,7 @@
       "typedDataCard": 26
     },
     "DeserializationLoadTime": 2.4478632,
-    "ErrorCount": 2
+    "ErrorCount": 4
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
