@@ -1,15 +1,15 @@
-"DetailScreen1 As screen.'phoneDetailViewLayout_ver3.0'":
+"DetailMemberSales As screen.'phoneDetailViewLayout_ver3.0'":
 
-    RectQuickActionBar2 As rectangle:
+    RectQuickActionBar2_2 As rectangle:
         Height: =88
         Width: =Parent.Width
         ZIndex: =1
 
-    IconBackarrow1 As icon.ChevronLeft:
+    IconBackarrow1_5 As icon.ChevronLeft:
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.ChevronLeft
-        OnSelect: =Navigate(BrowseScreen1, ScreenTransition.None)
+        OnSelect: =Navigate(BrowseMemberSales, ScreenTransition.None)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
@@ -19,12 +19,12 @@
         Width: =88
         ZIndex: =2
 
-    IconEdit1 As icon.Edit:
+    IconEdit1_2 As icon.Edit:
         AccessibleLabel: =Self.Tooltip
         DisplayMode: =If(DataSourceInfo([@Table1], DataSourceInfo.EditPermission), DisplayMode.Edit, DisplayMode.Disabled)
         Height: =88
         Icon: =Icon.Edit
-        OnSelect: =EditForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
+        OnSelect: =EditForm(EditForm1_2);Navigate(EditMemberSales, ScreenTransition.None)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
@@ -35,12 +35,12 @@
         X: =Parent.Width - Self.Width
         ZIndex: =3
 
-    IconDelete1 As icon.Trash:
+    IconDelete1_2 As icon.Trash:
         AccessibleLabel: =Self.Tooltip
         DisplayMode: =If(!IsBlank(BrowseGallery1.Selected) && DataSourceInfo([@Table1], DataSourceInfo.DeletePermission), DisplayMode.Edit, DisplayMode.Disabled)
         Height: =88
         Icon: =Icon.Trash
-        OnSelect: =Remove([@Table1], BrowseGallery1.Selected); If (IsEmpty(Errors([@Table1], BrowseGallery1.Selected)), Back())
+        OnSelect: =Remove([@Table1_1], BrowseGallery1_1.Selected); If (IsEmpty(Errors([@Table1_1], BrowseGallery1_1.Selected)), Back())
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
@@ -48,33 +48,33 @@
         TabIndex: =0
         Tooltip: ="Delete this item"
         Width: =88
-        X: =Parent.Width - IconEdit1.Width - Self.Width
+        X: =Parent.Width - IconEdit1_2.Width - Self.Width
         ZIndex: =4
 
-    LblAppName2 As label:
+    LblAppName2_2 As label:
         Height: =88
         Size: =27
-        Text: ="Customer"
-        Width: =Parent.Width - Self.X - IconDelete1.Width - IconEdit1.Width
+        Text: ="Sales"
+        Width: =Parent.Width - Self.X - IconDelete1_2.Width - IconEdit1_2.Width
         Wrap: =false
         X: =80
         ZIndex: =5
 
-    DetailForm1 As formViewer:
+    DetailForm1_2 As formViewer:
         AcceptsFocus: =false
-        DataSource: =[@Table1]
-        Height: =Parent.Height - DetailForm1.Y
-        Item: =BrowseGallery1.Selected
+        DataSource: =Table1_1
+        Height: =Parent.Height - DetailForm1_2.Y
+        Item: =BrowseGallery1_2.Selected
         Width: =Parent.Width
-        Y: =RectQuickActionBar2.Y + RectQuickActionBar2.Height
+        Y: =RectQuickActionBar2_2.Y + RectQuickActionBar2_2.Height
         ZIndex: =6
 
-        "'Customer Name_DataCard1' As typedDataCard.textualViewCard":
+        Category_DataCard1_1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Customer_x0020_Name"
-            Default: =ThisItem.'Customer Name'
+            DataField: ="Category"
+            Default: =ThisItem.Category
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"Customer_x0020_Name")
+            DisplayName: =DataSourceInfo([@Table1_1],DataSourceInfo.DisplayName,"Category")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
@@ -83,10 +83,9 @@
             Y: =0
             ZIndex: =1
 
-            DataCardKey4 As label:
+            DataCardKey3_1 As label:
                 AutoHeight: =true
                 Height: =48
-                PaddingBottom: =0
                 Size: =21
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -95,7 +94,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue4 As label:
+            DataCardValue3_1 As label:
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
@@ -105,15 +104,15 @@
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
+                Y: =DataCardKey3_1.Y + DataCardKey3_1.Height + 5
                 ZIndex: =2
 
-        Country_DataCard1 As typedDataCard.textualViewCard:
+        Customer_DataCard1_1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Country"
-            Default: =ThisItem.Country
+            DataField: ="Customer"
+            Default: =ThisItem.Customer
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"Country")
+            DisplayName: =DataSourceInfo([@Table1_1],DataSourceInfo.DisplayName,"Customer")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
@@ -122,10 +121,9 @@
             Y: =1
             ZIndex: =1
 
-            DataCardKey2 As label:
+            DataCardKey11_1 As label:
                 AutoHeight: =true
                 Height: =48
-                PaddingBottom: =0
                 Size: =21
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -134,7 +132,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue2 As label:
+            DataCardValue11_1 As label:
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
@@ -144,15 +142,15 @@
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                Y: =DataCardKey11_1.Y + DataCardKey11_1.Height + 5
                 ZIndex: =2
 
-        City_DataCard1 As typedDataCard.textualViewCard:
+        OrderDate_DataCard1_1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="City"
-            Default: =ThisItem.City
+            DataField: ="OrderDate"
+            Default: =ThisItem.OrderDate
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"City")
+            DisplayName: =DataSourceInfo([@Table1_1],DataSourceInfo.DisplayName,"OrderDate")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
@@ -161,7 +159,7 @@
             Y: =2
             ZIndex: =1
 
-            DataCardKey1 As label:
+            DataCardKey17_1 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -172,7 +170,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue1 As label:
+            DataCardValue15_1 As label:
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
@@ -182,15 +180,15 @@
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
+                Y: =DataCardKey17_1.Y + DataCardKey17_1.Height + 5
                 ZIndex: =2
 
-        Region_DataCard1 As typedDataCard.textualViewCard:
+        "'Product Name_DataCard1_1' As typedDataCard.textualViewCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Region"
-            Default: =ThisItem.Region
+            DataField: ="Product_x0020_Name"
+            Default: =ThisItem.'Product Name'
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"Region")
+            DisplayName: =DataSourceInfo([@Table1_1],DataSourceInfo.DisplayName,"Product_x0020_Name")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
@@ -199,10 +197,9 @@
             Y: =3
             ZIndex: =1
 
-            DataCardKey6 As label:
+            DataCardKey18_1 As label:
                 AutoHeight: =true
                 Height: =48
-                PaddingBottom: =0
                 Size: =21
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -211,7 +208,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue6 As label:
+            DataCardValue17_1 As label:
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
@@ -221,15 +218,15 @@
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                Y: =DataCardKey18_1.Y + DataCardKey18_1.Height + 5
                 ZIndex: =2
 
-        "'Postal Code_DataCard1' As typedDataCard.textualViewCard":
+        Sales_DataCard1_1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Postal_x0020_Code"
-            Default: =ThisItem.'Postal Code'
+            DataField: ="Sales"
+            Default: =ThisItem.Sales
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"Postal_x0020_Code")
+            DisplayName: =DataSourceInfo([@Table1_1],DataSourceInfo.DisplayName,"Sales")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
@@ -238,10 +235,9 @@
             Y: =4
             ZIndex: =1
 
-            DataCardKey5 As label:
+            DataCardKey19_1 As label:
                 AutoHeight: =true
                 Height: =48
-                PaddingBottom: =0
                 Size: =21
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -250,7 +246,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue5 As label:
+            DataCardValue18_1 As label:
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
@@ -260,15 +256,15 @@
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey5.Y + DataCardKey5.Height + 5
+                Y: =DataCardKey19_1.Y + DataCardKey19_1.Height + 5
                 ZIndex: =2
 
-        Segment_DataCard1 As typedDataCard.textualViewCard:
+        "'Sub-Category_DataCard1_1' As typedDataCard.textualViewCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Segment"
-            Default: =ThisItem.Segment
+            DataField: ="Sub-Category"
+            Default: =ThisItem.'Sub-Category'
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"Segment")
+            DisplayName: =DataSourceInfo([@Table1_1],DataSourceInfo.DisplayName,"Sub-Category")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
@@ -277,10 +273,9 @@
             Y: =5
             ZIndex: =1
 
-            DataCardKey7 As label:
+            DataCardKey20_1 As label:
                 AutoHeight: =true
                 Height: =48
-                PaddingBottom: =0
                 Size: =21
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -289,7 +284,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue7 As label:
+            DataCardValue19_1 As label:
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
@@ -299,55 +294,6 @@
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey7.Y + DataCardKey7.Height + 5
+                Y: =DataCardKey20_1.Y + DataCardKey20_1.Height + 5
                 ZIndex: =2
-
-        State_DataCard1 As typedDataCard.textualViewCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="State"
-            Default: =ThisItem.State
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Table1],DataSourceInfo.DisplayName,"State")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =640
-            X: =0
-            Y: =6
-            ZIndex: =1
-
-            DataCardKey8 As label:
-                AutoHeight: =true
-                Height: =48
-                PaddingBottom: =0
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue8 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey8.Y + DataCardKey8.Height + 5
-                ZIndex: =2
-
-    Button7 As button:
-        Height: =70
-        OnSelect: =Navigate(BrowseMemberSales)
-        Size: =24
-        Text: ="View Sales"
-        Width: =280
-        X: =180
-        Y: =837
-        ZIndex: =7
 

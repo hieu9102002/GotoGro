@@ -107,6 +107,9 @@
     "EditScreen1",
     "BrowseScreenSales",
     "DetailScreenSales",
-    "EditScreenSales"
+    "EditScreenSales",
+    "BrowseMemberSales",
+    "DetailMemberSales",
+    "EditMemberSales"
   ]
 }
