@@ -30,12 +30,3 @@
         Y: =488
         ZIndex: =3
 
-    Button3 As button:
-        Height: =70
-        Size: =24
-        Text: ="Button"
-        Width: =280
-        X: =180
-        Y: =599
-        ZIndex: =4
-
