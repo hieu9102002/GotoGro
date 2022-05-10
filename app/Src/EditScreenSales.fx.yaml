@@ -184,7 +184,7 @@
             Dropdown2 As dropdown:
                 Default: =Parent.Default
                 Height: =70
-                Items: =Table1.Customer_x0020_Name
+                Items: =Table1.'Customer Name'
                 Size: =21
                 Width: =575
                 X: =30

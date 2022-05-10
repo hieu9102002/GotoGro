@@ -184,7 +184,7 @@
             Dropdown2_1 As dropdown:
                 Default: =Parent.Default
                 Height: =70
-                Items: =Table1.Customer_x0020_Name
+                Items: =Table1.'Customer Name'
                 Size: =21
                 Width: =575
                 X: =30
@@ -315,7 +315,7 @@
         "'Product Name_DataCard2_1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Product_x0020_Name"
-            Default: =ThisItem.'Product Name'
+            Default: =ThisItem.Product_x0020_Name
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Table1_1],DataSourceInfo.DisplayName,"Product_x0020_Name")
             Fill: =RGBA(0, 0, 0, 0)

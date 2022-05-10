@@ -102,7 +102,7 @@
 
     "BrowseGallery1_2 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =Parent.Height - Self.Y
-        Items: =SortByColumns(Search(Search([@Table1_1], BrowseGallery1.Selected.Customer_x0020_Name, "Customer"), TextSearchBox1_2.Text, "Category"), "OrderDate", If(SortDescending1, Ascending, Descending))
+        Items: =SortByColumns(Search(Search([@Table1_1], BrowseGallery1.Selected.'Customer Name', "Customer"), TextSearchBox1_2.Text, "Category"), "OrderDate", If(SortDescending1, Ascending, Descending))
         Layout: =Layout.Vertical
         OnSelect: =Navigate(DetailScreenSales, ScreenTransition.None)
         ShowScrollbar: =false
@@ -181,7 +181,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Download
-        OnSelect: =Set(varFileLink,ExportToCSV_GotoGro.Run(JSON(Search([@Table1_1], BrowseGallery1.Selected.Customer_x0020_Name, "Customer")),JSONFormat.IncludeBinaryData).filelink);Download(varFileLink)
+        OnSelect: =Set(varFileLink,ExportToCSV_GotoGro.Run(JSON(Search([@Table1_1], BrowseGallery1.Selected.'Customer Name', "Customer")),JSONFormat.IncludeBinaryData).filelink);Download(varFileLink)
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22

@@ -67,7 +67,7 @@
     "LastModifiedTimestamp": "0",
     "Name": "form",
     "OverridableProperties": {},
-    "Version": "2.3.0"
+    "Version": "2.3.2"
   },
   "formViewer": {
     "CustomGroupControlTemplateName": "",
@@ -81,7 +81,7 @@
     "LastModifiedTimestamp": "0",
     "Name": "formViewer",
     "OverridableProperties": {},
-    "Version": "2.3.0"
+    "Version": "2.3.2"
   },
   "gallery": {
     "CustomGroupControlTemplateName": "",
@@ -95,7 +95,7 @@
     "LastModifiedTimestamp": "0",
     "Name": "gallery",
     "OverridableProperties": {},
-    "Version": "2.13.0"
+    "Version": "2.13.1"
   },
   "galleryTemplate": {
     "CustomGroupControlTemplateName": "",
@@ -203,6 +203,6 @@
     "LastModifiedTimestamp": "0",
     "Name": "typedDataCard",
     "OverridableProperties": {},
-    "Version": "1.0.4"
+    "Version": "1.0.5"
   }
 }
