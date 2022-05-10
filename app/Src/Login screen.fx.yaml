@@ -72,7 +72,7 @@
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =25
-        Text: ="LoginZ"
+        Text: ="Login"
         Width: =560
         X: =28
         Y: =15
